@@ -1,0 +1,38 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3408
+
+A carefully balanced hybrid of Jellybeans (vimscript #2555) and Xoria256 (vimscript #2140).
+
+Designed for 256-color terminals and GUI vim.
+
+Running rxvt-unicode? Version 9.10 introduces an official 256-color mode.
+Recompile with `configure --enable-256-color` and enjoy.
+
+
+### Options
+
+Show tabs in dark grey, trailing whitespace in dark pink
+
+    let g:jellyx_show_whitespace = 1
+    colorscheme jellyx
+
+
+### Screenshots
+
+Term: rxvt-unicode 9.10 with --enable-256-color configure option
+Font: Consolas
+
+ * Ruby, with incremental search
+   http://guns.github.com/jellyx.vim/images/ruby.png
+
+ * Sass and CSS, with visual selection
+   http://guns.github.com/jellyx.vim/images/sass-css.png
+
+ * C, with g:jellyx_show_whitespace=1
+   http://guns.github.com/jellyx.vim/images/c-with-whitespace.png
+
+ * VimScript, with folds
+   http://guns.github.com/jellyx.vim/images/folds.png
+
+
+Get the latest version at:
+http://github.com/guns/jellyx.vim
